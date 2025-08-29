@@ -1,0 +1,31 @@
+# OS- en editorrommel
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python & virtualenv
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Test/coverage/mypy/ruff
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs & lokale config
+*.log
+.env
